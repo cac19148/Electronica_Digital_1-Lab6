@@ -1,0 +1,150 @@
+$date
+	Sat Sep 05 08:52:34 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_DFF $end
+$var wire 4 ! Q [3:0] $end
+$var reg 4 " D [3:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$var reg 1 % set $end
+$scope module FFP1 $end
+$var wire 4 & D [3:0] $end
+$var wire 1 $ async_reset $end
+$var wire 1 # clk $end
+$var wire 1 % sync_set $end
+$var reg 4 ' Q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+b0 &
+0%
+0$
+0#
+b0 "
+bx !
+$end
+#2
+b0 !
+b0 '
+1$
+#10
+1#
+#12
+b1111 "
+b1111 &
+#15
+0$
+#18
+b0 "
+b0 &
+#20
+0#
+#24
+b1111 "
+b1111 &
+#27
+1%
+#30
+b1111 !
+b1111 '
+b0 "
+b0 &
+1#
+#36
+b1111 "
+b1111 &
+#39
+0%
+#40
+0#
+#42
+b0 "
+b0 &
+#48
+b1111 "
+b1111 &
+#50
+1#
+#54
+b0 "
+b0 &
+#60
+b1111 "
+b1111 &
+0#
+#66
+b0 "
+b0 &
+#70
+b0 !
+b0 '
+1#
+#72
+b1111 "
+b1111 &
+#78
+b0 "
+b0 &
+#80
+0#
+#84
+b1111 "
+b1111 &
+#90
+b0 "
+b0 &
+1#
+#96
+b1111 "
+b1111 &
+#100
+0#
+#102
+b0 "
+b0 &
+#108
+b1111 "
+b1111 &
+#110
+b1111 !
+b1111 '
+1#
+#114
+b0 "
+b0 &
+#120
+b1111 "
+b1111 &
+0#
+#126
+b0 "
+b0 &
+#130
+b0 !
+b0 '
+1#
+#132
+b1111 "
+b1111 &
+#138
+b0 "
+b0 &
+#140
+0#
+#144
+b1111 "
+b1111 &
+#150
+b0 "
+b0 &
+1#
+#155

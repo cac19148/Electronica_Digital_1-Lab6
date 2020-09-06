@@ -1,0 +1,262 @@
+$date
+	Sun Sep 06 04:56:09 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_DFF $end
+$var wire 3 ! Y [2:0] $end
+$var reg 1 " A $end
+$var reg 3 # FS [2:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$var reg 1 & set $end
+$scope module FMS_1 $end
+$var wire 1 " A $end
+$var wire 1 % async_reset $end
+$var wire 1 $ clk $end
+$var wire 1 & sync_set $end
+$var wire 3 ' Y [2:0] $end
+$var wire 3 ( Q [2:0] $end
+$var wire 3 ) D [2:0] $end
+$scope module FFD1 $end
+$var wire 3 * D [2:0] $end
+$var wire 1 % async_reset $end
+$var wire 1 $ clk $end
+$var wire 1 & sync_set $end
+$var reg 3 + Q [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+bx '
+x&
+x%
+0$
+bx #
+x"
+bx !
+$end
+#1
+b1 )
+b1 *
+b0 !
+b0 '
+b0 (
+b0 +
+b0 #
+0&
+1"
+1%
+#2
+0%
+#10
+b1 !
+b1 '
+b10 )
+b10 *
+b1 (
+b1 +
+1$
+#20
+0$
+#25
+b1 #
+#30
+b11 !
+b11 '
+b11 )
+b11 *
+b10 (
+b10 +
+1$
+#40
+0$
+#45
+b10 #
+#50
+b10 !
+b10 '
+b100 )
+b100 *
+b11 (
+b11 +
+1$
+#60
+0$
+#65
+b11 #
+#70
+b101 )
+b101 *
+b110 !
+b110 '
+b100 (
+b100 +
+1$
+#80
+0$
+#85
+b100 #
+#90
+b111 !
+b111 '
+b110 )
+b110 *
+b101 (
+b101 +
+1$
+#100
+0$
+#105
+b101 #
+#110
+b101 !
+b101 '
+b111 )
+b111 *
+b110 (
+b110 +
+1$
+#120
+0$
+#125
+b110 #
+#130
+b100 !
+b100 '
+b0 )
+b0 *
+b111 (
+b111 +
+1$
+#140
+0$
+#145
+b111 #
+#150
+b1 )
+b1 *
+b0 !
+b0 '
+b0 (
+b0 +
+1$
+#160
+0$
+#165
+b111 )
+b111 *
+b0 #
+0"
+#170
+b110 )
+b110 *
+b100 !
+b100 '
+b111 (
+b111 +
+1$
+#180
+0$
+#185
+b111 #
+#190
+b101 !
+b101 '
+b101 )
+b101 *
+b110 (
+b110 +
+1$
+#200
+0$
+#205
+b110 #
+#210
+b111 !
+b111 '
+b100 )
+b100 *
+b101 (
+b101 +
+1$
+#220
+0$
+#225
+b101 #
+#230
+b110 !
+b110 '
+b11 )
+b11 *
+b100 (
+b100 +
+1$
+#240
+0$
+#245
+b100 #
+#250
+b10 )
+b10 *
+b10 !
+b10 '
+b11 (
+b11 +
+1$
+#260
+0$
+#265
+b11 #
+#270
+b11 !
+b11 '
+b1 )
+b1 *
+b10 (
+b10 +
+1$
+#280
+0$
+#285
+b10 #
+#290
+b1 !
+b1 '
+b0 )
+b0 *
+b1 (
+b1 +
+1$
+#300
+0$
+#305
+b1 #
+#310
+b0 !
+b0 '
+b111 )
+b111 *
+b0 (
+b0 +
+1$
+#320
+0$
+#325
+1%
+#330
+1$
+#340
+0$
+#350
+1$

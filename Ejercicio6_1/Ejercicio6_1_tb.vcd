@@ -1,0 +1,143 @@
+$date
+	Sun Sep 06 04:39:08 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_DFF $end
+$var wire 1 ! Y $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 2 $ FS [1:0] $end
+$var reg 1 % clk $end
+$var reg 1 & reset $end
+$var reg 1 ' set $end
+$scope module FMS_1 $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 ! Y $end
+$var wire 1 & async_reset $end
+$var wire 1 % clk $end
+$var wire 1 ' sync_set $end
+$var wire 2 ( Q [1:0] $end
+$var wire 2 ) D [1:0] $end
+$scope module FFD1 $end
+$var wire 2 * D [1:0] $end
+$var wire 1 & async_reset $end
+$var wire 1 % clk $end
+$var wire 1 ' sync_set $end
+$var reg 2 + Q [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+x'
+x&
+0%
+bx $
+x#
+x"
+x!
+$end
+#1
+b0 (
+b0 +
+0!
+b0 )
+b0 *
+b0 $
+0'
+0#
+0"
+1&
+#2
+0&
+#10
+1%
+#20
+0%
+#30
+1%
+#35
+b1 )
+b1 *
+1"
+#40
+0%
+#45
+b1 $
+#50
+b0 )
+b0 *
+b1 (
+b1 +
+1%
+#60
+0%
+#65
+b0 $
+#70
+b1 )
+b1 *
+b0 (
+b0 +
+1%
+#80
+0%
+#85
+b1 $
+1#
+#90
+b10 )
+b10 *
+b1 (
+b1 +
+1%
+#100
+0%
+#105
+b10 $
+#110
+1!
+b10 )
+b10 *
+b10 (
+b10 +
+1%
+#120
+0%
+#125
+b0 )
+b0 *
+0!
+b0 $
+0#
+#130
+b1 )
+b1 *
+b0 (
+b0 +
+1%
+#135
+b0 )
+b0 *
+0"
+#140
+0%
+#150
+1%
+#160
+0%
+#170
+1%
+#180
+0%
